@@ -1,0 +1,23 @@
+@import "izitoast/dist/css/iziToast.min.css";
+.js-button {
+  font-size: 14px;
+  display: flex;
+  margin-left: 12px;
+}
+.js-fieldset {
+  margin-left: 12px;
+  margin-bottom: 8px;
+  display: flex;
+  gap: 8px;
+  max-width: 200px;
+}
+.js-label {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin-left: 12px;
+
+}
+
+
