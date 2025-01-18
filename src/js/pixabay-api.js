@@ -6,7 +6,7 @@ export const fetchPhotosByQuery = searchedQuery => {
     orientation: 'horizontal',
     safesearch: true,
   });
-  const url = `https://pixabay.com/api?${searchParams}`;
+  const url = `https://pixabay.com/api/?${searchParams}`;
 
   
 
@@ -18,4 +18,3 @@ export const fetchPhotosByQuery = searchedQuery => {
     return response.json();
   });
 };
-
